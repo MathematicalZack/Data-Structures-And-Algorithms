@@ -19,7 +19,7 @@ static class SortingAlgorithms
                 j--;
             }
 
-            values[j] = key;
+            values[j + 1] = key;
         }
     }
 
